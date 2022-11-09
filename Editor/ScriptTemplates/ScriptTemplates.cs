@@ -15,12 +15,12 @@ namespace WaynGroup.Mgm.Ability.Editor
                 "UnmanagedSystem.cs");
         }
 
-        [MenuItem("Assets/Create/DOTS/Autoring Component")]
-        public static void CreateAutoringComponent()
+        [MenuItem("Assets/Create/DOTS/Authoring Component")]
+        public static void CreateAuthoringComponent()
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
-                $"Assets/Editor/ScriptTemplates/AutoringComponent.txt",
-                "AutoringComponent.cs");
+                $"Assets/Editor/ScriptTemplates/AuthoringComponent.txt",
+                "AuthoringComponent.cs");
         }
 
         [MenuItem("Assets/Create/DOTS/IComponentData")]
