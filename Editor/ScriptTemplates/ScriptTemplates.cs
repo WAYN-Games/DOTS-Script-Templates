@@ -28,14 +28,14 @@ namespace WaynGroup.Mgm.Ability.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 $"Assets/Editor/ScriptTemplates/IComponentData.txt",
-                "AutoringComponent.cs");
+                "IComponentData.cs");
         }
         [MenuItem("Assets/Create/DOTS/IBufferElementData")]
         public static void CreateIBufferElementData()
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 $"Assets/Editor/ScriptTemplates/IBufferElementData.txt",
-                "AutoringComponent.cs");
+                "IBufferElementData.cs");
         }
         [MenuItem("Assets/Create/DOTS/Hybrid Component")]
         public static void CreateHybridComponent()
