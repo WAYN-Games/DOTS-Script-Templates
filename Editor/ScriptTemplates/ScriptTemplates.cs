@@ -5,8 +5,6 @@ namespace WaynGroup.Mgm.Ability.Editor
 {
     internal class ScriptTemplates
     {
-
-       
         [MenuItem("Assets/Create/DOTS/Unmanaged System")]
         public static void CreateUnmanagedSystem()
         {

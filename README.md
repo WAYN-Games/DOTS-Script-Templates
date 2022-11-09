@@ -1,6 +1,6 @@
 # DOTS Script Templates
  
-Contains a few useful DOTS Script template to reduce typing when making new DOTS scripts.
+Contains a few useful **DOTS 1.0**  Script template to reduce typing when making new **DOTS 1.0** scripts.
 You just need to copy the editor folder into your project.
 
-After  that you will get new scripts creation option under "Create > DOTS"
+After that you will get new scripts creation option under "Create > DOTS"
