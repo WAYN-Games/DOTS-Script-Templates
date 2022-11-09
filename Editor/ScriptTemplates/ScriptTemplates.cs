@@ -42,7 +42,7 @@ namespace WaynGroup.Mgm.Ability.Editor
         {
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
                 $"Assets/Editor/ScriptTemplates/HybridComponent.txt",
-                "AutoringComponent.cs");
+                "HybridComponent.cs");
         }
 
     }
