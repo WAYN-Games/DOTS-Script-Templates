@@ -5,6 +5,14 @@ namespace WaynGroup.Mgm.Ability.Editor
 {
     internal class ScriptTemplates
     {
+        [MenuItem("Assets/Create/DOTS/IAspect")]
+        public static void CreateIAspect()
+        {
+            ProjectWindowUtil.CreateScriptAssetFromTemplateFile(
+                $"Assets/Editor/ScriptTemplates/IAspect.txt",
+                "IAspect.cs");
+        }
+
         [MenuItem("Assets/Create/DOTS/Unmanaged System")]
         public static void CreateUnmanagedSystem()
         {
